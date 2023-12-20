@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #E02C6D;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    padding-bottom: 0.3rem;
+}
+
+.py-1 {
+    padding: 2rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Influencer */
+
+#influencer h2 {
+    padding-top: 2rem;
+}
+#influencer .influencer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+#influencer .influencer-content h1 {
+    padding-bottom: 0.5rem;
+}
+
+#influencer .influencer-content p {
+    padding-bottom: 0.75rem;
+}
+
+#product .product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+#main-footer .footer-content {
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
